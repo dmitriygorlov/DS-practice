@@ -25,7 +25,7 @@
   
   <tr>
     <td><a href="https://github.com/dmitriygorlov/DS-practice/blob/main/NLP_wine_reviews.ipynb">NLP с лемматизацией и без</a></td>
-    <td>На винном датасете ["Недвижимость калифорнии"](https://www.kaggle.com/zynicide/wine-reviews?select=winemag-data_first150k.csv) модель регрессии по описанию сомелье (обработка с NLTK с TF-IDF) на цену с сохранением итоговых преобразователь+модель для деплоя</td>
-    <td>pycaret</br>AutoML</td>
+    <td>На <a href="https://www.kaggle.com/zynicide/wine-reviews?select=winemag-data_first150k.csv">винном датасете с kaggle</a> модель регрессии по описанию сомелье (обработка с NLTK с TF-IDF) на цену с сохранением итоговых преобразователь+модель для деплоя</td>
+    <td>TF-IDF</br>NLP</br>NLTK</td>
   </tr>
 </table>
