@@ -1,3 +1,5 @@
+[Modern environment, execution, validation and migration notes](MODERNIZATION.md)
+
 # DS-practice
 Пробую разные датасеты, библиотеки, выгуливаю pet'ов :)
 <br>

@@ -1,0 +1,121 @@
+[
+  {
+    "notebook": "google_california_pycaret.ipynb",
+    "python_metadata": null,
+    "imports": [
+      "pandas",
+      "pycaret.regression",
+      "pycaret.utils"
+    ],
+    "data_references": [
+      {
+        "cell": 6,
+        "source": "df_train = pd.read_csv('/content/sample_data/california_housing_train.csv')"
+      },
+      {
+        "cell": 8,
+        "source": "df_test = pd.read_csv('/content/sample_data/california_housing_test.csv')"
+      }
+    ],
+    "review_candidates": [
+      {
+        "cell": 12,
+        "source": "!pip install pycaret"
+      },
+      {
+        "cell": 19,
+        "source": "reg_set = setup(data = df_train, target = 'median_house_value', silent = True, session_id=42)"
+      },
+      {
+        "cell": 31,
+        "source": "mape = check_metric(predict_model(v, df_test).median_house_value, predict_model(v, df_test).Label, 'MAPE')"
+      },
+      {
+        "cell": 31,
+        "source": "mape = check_metric(predict_model(v, df_test).median_house_value, predict_model(v, df_test).Label, 'MAPE')"
+      },
+      {
+        "cell": 36,
+        "source": "reg_set = setup(data = df_train, target = 'median_house_value', silent = True, session_id=42,"
+      },
+      {
+        "cell": 47,
+        "source": "mape = check_metric(predict_model(v, df_test).median_house_value, predict_model(v, df_test).Label, 'MAPE')"
+      },
+      {
+        "cell": 47,
+        "source": "mape = check_metric(predict_model(v, df_test).median_house_value, predict_model(v, df_test).Label, 'MAPE')"
+      }
+    ]
+  },
+  {
+    "notebook": "NLP_wine_reviews.ipynb",
+    "python_metadata": null,
+    "imports": [
+      "lightgbm",
+      "nltk",
+      "nltk.corpus",
+      "nltk.stem",
+      "numpy",
+      "pandas",
+      "pickle",
+      "re",
+      "sklearn.feature_extraction.text",
+      "sklearn.linear_model",
+      "sklearn.metrics",
+      "sklearn.model_selection"
+    ],
+    "data_references": [
+      {
+        "cell": 9,
+        "source": "!unzip '/content/winemag-data_first150k.csv.zip' -d '/content/wine/'"
+      },
+      {
+        "cell": 10,
+        "source": "data = pd.read_csv('/content/wine/winemag-data_first150k.csv', index_col=0)"
+      }
+    ],
+    "review_candidates": [
+      {
+        "cell": 5,
+        "source": "nltk.download('stopwords')"
+      },
+      {
+        "cell": 5,
+        "source": "stopwords = set(nltk_stopwords.words('english'))"
+      },
+      {
+        "cell": 5,
+        "source": "nltk.download('wordnet')"
+      },
+      {
+        "cell": 5,
+        "source": "nltk.download('punkt')"
+      },
+      {
+        "cell": 5,
+        "source": "nltk.download('averaged_perceptron_tagger')"
+      },
+      {
+        "cell": 8,
+        "source": "! gdown --id 1uGSYndd57lPLebTts3mXJzzvG3rK08kq"
+      },
+      {
+        "cell": 9,
+        "source": "!unzip '/content/winemag-data_first150k.csv.zip' -d '/content/wine/'"
+      },
+      {
+        "cell": 17,
+        "source": "lemm_list.append(lemmm_uno)"
+      },
+      {
+        "cell": 40,
+        "source": "'depth' : [30, 15, 10, 5],"
+      },
+      {
+        "cell": 63,
+        "source": "'depth' : [30, 15, 10, 5],"
+      }
+    ]
+  }
+]
